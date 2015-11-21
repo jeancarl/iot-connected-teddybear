@@ -1,0 +1,17 @@
+{
+  "name": "Connected Teddy Bear",
+  "description": "Connected Teddy Bear that measures child's emotion, alerts parent, and receives text messages.",
+  "version": "0.0.1",
+  "main": "app.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+      "jsupm_i2clcd": "*",
+      "ibmiotf": "*",
+      "jsupm_grove": "*"
+  }
+}

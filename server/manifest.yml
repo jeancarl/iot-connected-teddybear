@@ -1,0 +1,5 @@
+applications:
+- name: connected-teddy-bear-${random-word}
+  memory: 64M
+  host: teddybear-${random-word}
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
